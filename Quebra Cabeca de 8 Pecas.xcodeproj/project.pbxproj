@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BBC4AE4C1EC3892600E96FBC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4AE4B1EC3892600E96FBC /* main.swift */; };
+		BBC4AE5A1EC3897900E96FBC /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4AE521EC3897900E96FBC /* Heap.swift */; };
+		BBC4AE5B1EC3897900E96FBC /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4AE531EC3897900E96FBC /* HeapSort.swift */; };
+		BBC4AE5C1EC3897900E96FBC /* InputRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4AE541EC3897900E96FBC /* InputRouting.swift */; };
+		BBC4AE5D1EC3897900E96FBC /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4AE551EC3897900E96FBC /* LinkedList.swift */; };
+		BBC4AE5E1EC3897900E96FBC /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4AE561EC3897900E96FBC /* PriorityQueue.swift */; };
+		BBC4AE601EC3897900E96FBC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4AE581EC3897900E96FBC /* State.swift */; };
+		BBC4AE611EC3897900E96FBC /* UserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4AE591EC3897900E96FBC /* UserInterface.swift */; };
+		BBC4AE631EC38EC100E96FBC /* SearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4AE621EC38EC100E96FBC /* SearchTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,14 @@
 /* Begin PBXFileReference section */
 		BBC4AE481EC3892600E96FBC /* Quebra Cabeca de 8 Pecas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Quebra Cabeca de 8 Pecas"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC4AE4B1EC3892600E96FBC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BBC4AE521EC3897900E96FBC /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		BBC4AE531EC3897900E96FBC /* HeapSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
+		BBC4AE541EC3897900E96FBC /* InputRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputRouting.swift; sourceTree = "<group>"; };
+		BBC4AE551EC3897900E96FBC /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		BBC4AE561EC3897900E96FBC /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		BBC4AE581EC3897900E96FBC /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		BBC4AE591EC3897900E96FBC /* UserInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInterface.swift; sourceTree = "<group>"; };
+		BBC4AE621EC38EC100E96FBC /* SearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,14 @@
 			isa = PBXGroup;
 			children = (
 				BBC4AE4B1EC3892600E96FBC /* main.swift */,
+				BBC4AE621EC38EC100E96FBC /* SearchTree.swift */,
+				BBC4AE521EC3897900E96FBC /* Heap.swift */,
+				BBC4AE531EC3897900E96FBC /* HeapSort.swift */,
+				BBC4AE541EC3897900E96FBC /* InputRouting.swift */,
+				BBC4AE551EC3897900E96FBC /* LinkedList.swift */,
+				BBC4AE561EC3897900E96FBC /* PriorityQueue.swift */,
+				BBC4AE581EC3897900E96FBC /* State.swift */,
+				BBC4AE591EC3897900E96FBC /* UserInterface.swift */,
 			);
 			path = "Quebra Cabeca de 8 Pecas";
 			sourceTree = "<group>";
@@ -122,6 +146,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBC4AE4C1EC3892600E96FBC /* main.swift in Sources */,
+				BBC4AE5C1EC3897900E96FBC /* InputRouting.swift in Sources */,
+				BBC4AE5D1EC3897900E96FBC /* LinkedList.swift in Sources */,
+				BBC4AE5B1EC3897900E96FBC /* HeapSort.swift in Sources */,
+				BBC4AE631EC38EC100E96FBC /* SearchTree.swift in Sources */,
+				BBC4AE5A1EC3897900E96FBC /* Heap.swift in Sources */,
+				BBC4AE5E1EC3897900E96FBC /* PriorityQueue.swift in Sources */,
+				BBC4AE611EC3897900E96FBC /* UserInterface.swift in Sources */,
+				BBC4AE601EC3897900E96FBC /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
