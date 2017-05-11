@@ -19,9 +19,7 @@ func solve() {
 
     print("Tempo decorrido: \(timeInterval) seconds");
 
-    //print(answer)
-
-    print("Númerod de moviventos: \(answer.depth)")
+    print("Número de moviventos: \(answer.depth)")
     
     answer.printPath()
 }

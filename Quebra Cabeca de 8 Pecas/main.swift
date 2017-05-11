@@ -66,8 +66,6 @@ let finalState = State(
     blank_position_y: index_j
 )
 
-print("\(firstState.blank_position_x), \(firstState.blank_position_y) -- \(finalState.blank_position_x), \(finalState.blank_position_y)")
-
 print("Tabela inicial: ")
 firstState.prettyPrint()
 print("Objetivo da tabela final: ")
@@ -76,11 +74,9 @@ finalState.prettyPrint()
 var passedByNodes = 0
 var generatedNodes = 0
 
-solve()
-
 if hasSolution(firstTableFromUser, finalTable: finalTableFromUser) {
     
-    
+    solve()
 } else {
     
     print("Tabela sem solução desejada")
